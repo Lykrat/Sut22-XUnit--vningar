@@ -10,5 +10,13 @@ namespace Sut22_XUnit_Övningar
     {
         private string _logProfile;
 
+        public LoggXUn(string logProfile)
+        {
+            _logProfile = logProfile;
+        }
+        public void LogMessage(string message)
+        {
+            Console.WriteLine(message);
+        }
     }
 }
